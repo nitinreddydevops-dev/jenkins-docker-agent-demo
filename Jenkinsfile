@@ -10,7 +10,6 @@ pipeline{
     stage('show environment'){
       steps{
         sh 'python --version'
-        sh 'whoami'
         sh 'pwd'
         sh 'ls -la'
       }
